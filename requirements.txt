@@ -1,0 +1,6 @@
+langgraph
+langchain
+langchain_community
+dotenv
+google-generativeai
+langchain-google-genai
