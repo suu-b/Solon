@@ -4,3 +4,6 @@ langchain_community
 dotenv
 google-generativeai
 langchain-google-genai
+supabase
+typer
+bcrypt
