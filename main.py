@@ -1,4 +1,4 @@
-from commands import app
+from ui.commands import app
 import shlex
 
 def repl():
@@ -13,12 +13,12 @@ def repl():
 
             args = shlex.split(raw)
             if(exitBase in args):
+                print("Goodbye!")
                 break
 
             try:
                 app(args)
             except SystemExit as e:
-                print("here")
                 if e.code != 0:
                     print(f"Command failed with error code: {e.code}")
 
