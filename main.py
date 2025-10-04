@@ -1,4 +1,4 @@
-from ui.commands import app
+from app.main import app
 import shlex
 
 def repl():
